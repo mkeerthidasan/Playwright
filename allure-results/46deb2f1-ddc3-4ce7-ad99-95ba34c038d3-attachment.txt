@@ -1,0 +1,5 @@
+Table Data: [
+  { firstName: 'Cierra', lastName: 'Vega' },
+  { firstName: 'Alden', lastName: 'Cantrell' },
+  { firstName: 'Kierra', lastName: 'Gentry' }
+]
