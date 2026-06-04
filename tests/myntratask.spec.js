@@ -32,6 +32,8 @@ console.log("Number of procduct  :" , AllProductProductprices);
 //   }
 
 // }
+//}
+console.log("True");
 
 console.log("Mininum Price:",Num);
 await page.click(`//li[@class='product-base']/descendant::div[@class='product-price']//descendant::span[(@class='product-discountedPrice' and text()='${Num}') or (text()='${Num}' and not(@class))]`);
