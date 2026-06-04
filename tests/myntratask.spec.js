@@ -20,18 +20,17 @@ const Productprices = Num_of_Product.map(Productprices =>Number(Productprices.ma
 console.log("Product list based on price :",Productprices);
 console.log("Number of procduct  :" , AllProductProductprices);
 
- const Num=Productprices.sort((a,b)=>a-b)[0]
 
 
-// let Num= Infinity;
-// for(let i=0;i<AllProductProductprices;i++){
-//   const Mininum_Value= Productprices[i];
-//   if(Mininum_Value<Num){
-//     Num=Mininum_Value
+let Num= Infinity;
+for(let i=0;i<AllProductProductprices;i++){
+  const Mininum_Value= Productprices[i];
+  if(Mininum_Value<Num){
+    Num=Mininum_Value
     
-//   }
+  }
 
-// }
+}
 
 console.log("Mininum Price:",Num);
 await page.click(`//li[@class='product-base']/descendant::div[@class='product-price']//descendant::span[(@class='product-discountedPrice' and text()='${Num}') or (text()='${Num}' and not(@class))]`);
