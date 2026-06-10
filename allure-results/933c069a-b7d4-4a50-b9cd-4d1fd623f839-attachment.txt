@@ -1,0 +1,13 @@
+Product list based on price : [
+  649, 688, 591, 511, 629, 639, 199, 674,
+  487, 535, 699, 591, 330, 693, 591, 590,
+  699, 591, 330, 570, 591, 285, 423, 487,
+  582, 599, 487, 487, 370, 639, 472, 547,
+  199, 299, 356, 153, 330, 494, 186, 450,
+  524, 199, 398, 599, 154, 659, 497, 429,
+  398, 389
+]
+Number of procduct  : 50
+Mininum Price: 153
+Minimum value Brand: Round Neck Printed T-shirt
+Minimum value productName: Round Neck Printed T-shirt

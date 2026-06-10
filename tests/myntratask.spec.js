@@ -19,11 +19,6 @@ const AllProductProductprices = await List0fProducts.count();
 const Productprices = Num_of_Product.map(Productprices =>Number(Productprices.match(/\d+/)));
 console.log("Product list based on price :",Productprices);
 console.log("Number of procduct  :" , AllProductProductprices);
-
-<<<<<<< HEAD:tests/myntratask.spec.js
- const Num=Productprices.sort((a,b)=>a-b)[0]
-
-
 // let Num= Infinity;
 // for(let i=0;i<AllProductProductprices;i++){
 //   const Mininum_Value= Productprices[i];
@@ -34,8 +29,6 @@ console.log("Number of procduct  :" , AllProductProductprices);
 
 // }
 //}
-console.log("True");
-=======
 let Num= Infinity;
 for(let i=0;i<AllProductProductprices;i++){
   const Mininum_Value= Productprices[i];
@@ -44,8 +37,6 @@ for(let i=0;i<AllProductProductprices;i++){
   
   }
 }
->>>>>>> da9bc9c ( Hi Playwright):tests/task2.spec.js
-
 console.log("Mininum Price:",Num);
 await page.click(`//li[@class='product-base']/descendant::div[@class='product-price']//descendant::span[(@class='product-discountedPrice' and text()='${Num}') or (text()='${Num}' and not(@class))]`);
 await page.waitForTimeout(1500);
