@@ -1,0 +1,49 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: empinfo.spec.js >> Validate empinfo JSON data
+- Location: tests\empinfo.spec.js:4:5
+
+# Error details
+
+```
+Error: ENOENT: no such file or directory, open 'D:\Playwright\empinfo.json'
+```
+
+# Test source
+
+```ts
+  1  | import { test, expect } from '@playwright/test';
+  2  | import fs from 'fs';
+  3  | 
+  4  | test('Validate empinfo JSON data', async () => {
+  5  | 
+  6  |     // Read JSON file
+  7  |     const data = JSON.parse(
+> 8  |         fs.readFileSync('./empinfo.json', 'utf-8')
+     |            ^ Error: ENOENT: no such file or directory, open 'D:\Playwright\empinfo.json'
+  9  |     );
+  10 | 
+  11 |     // Validate employee name
+  12 |     expect(data.empname).toBe('Arun');
+  13 | 
+  14 |     // Validate employee id
+  15 |     expect(data.empid).toBe('101');
+  16 | 
+  17 |     // Validate mobile2
+  18 |     expect(data.Phone.mobile2).toBe('9989873839');
+  19 | 
+  20 |     // Validate API Testing skill
+  21 |     expect(data.skills).toContain('API Testing');
+  22 | 
+  23 |     console.log('Employee Name:', data.empname);
+  24 |     console.log('Employee ID:', data.empid);
+  25 |     console.log('Mobile2:', data.Phone.mobile2);
+  26 |     console.log('Skills:', data.skills);
+  27 | });
+```

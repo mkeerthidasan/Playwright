@@ -1,0 +1,8 @@
+Mobile2: 9989873839
+Employee has API Testing skill: true
+
+Validating Employee Information:
+Employee Name: Arun
+Employee ID: 102
+Mobile2: 9989873839
+Skills: [ 'API Testing' ]

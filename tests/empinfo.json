@@ -1,0 +1,8 @@
+{"empname": "Arun", 
+    "empid":"102",
+    "Phone":{
+        "mobile1":"9878766886",
+        "mobile2":"9989873839"
+        },
+        "skills":["Playwright","API Testing","manual"]  
+       }

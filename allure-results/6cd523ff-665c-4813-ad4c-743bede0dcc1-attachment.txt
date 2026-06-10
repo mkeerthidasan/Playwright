@@ -1,0 +1,13 @@
+Product list based on price : [
+  469, 599, 511, 591, 549, 285, 398, 468,
+  149, 487, 677, 153, 330, 599, 154, 299,
+  693, 639, 434, 377, 299, 591, 699, 449,
+  330, 398, 359, 632, 348, 591, 582, 389,
+  172, 511, 668, 389, 330, 649, 590, 591,
+  370, 359, 472, 598, 389, 436, 599, 235,
+  434, 384
+]
+Number of procduct  : 50
+Mininum Price: 149
+Minimum value Brand: Boys Printed Applique T-shirt
+Minimum value productName: Boys Printed Applique T-shirt

@@ -1,0 +1,7 @@
+The employee does not have API Testing skill or the name is not Arun
+The employee has API Testing skill and the name is Arun
+The employee does not have API Testing skill or the name is not Arun
+Employee Name: Arun
+Employee ID: 102
+Mobile2: 9989873839
+Skills: [ 'API Testing' ]
