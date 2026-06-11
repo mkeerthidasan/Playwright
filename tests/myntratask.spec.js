@@ -19,16 +19,7 @@ const AllProductProductprices = await List0fProducts.count();
 const Productprices = Num_of_Product.map(Productprices =>Number(Productprices.match(/\d+/)));
 console.log("Product list based on price :",Productprices);
 console.log("Number of procduct  :" , AllProductProductprices);
-// let Num= Infinity;
-// for(let i=0;i<AllProductProductprices;i++){
-//   const Mininum_Value= Productprices[i];
-//   if(Mininum_Value<Num){
-//     Num=Mininum_Value
-    
-//   }
 
-// }
-//}
 let Num= Infinity;
 for(let i=0;i<AllProductProductprices;i++){
   const Mininum_Value= Productprices[i];
